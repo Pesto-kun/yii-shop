@@ -49,6 +49,11 @@ $config = [
         ],
         'db' => require(__DIR__ . '/db.php'),
     ],
+    'modules' => [
+        'shop' => [
+            'class' => 'app\modules\shop\Module',
+        ],
+    ],
     'params' => $params,
 ];
 
